@@ -16,6 +16,7 @@
 		6975B732277135C200918A7A /* Local_NotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975B731277135C200918A7A /* Local_NotificationsTests.swift */; };
 		6975B73C277135C200918A7A /* Local_NotificationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975B73B277135C200918A7A /* Local_NotificationsUITests.swift */; };
 		6975B73E277135C200918A7A /* Local_NotificationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975B73D277135C200918A7A /* Local_NotificationsUITestsLaunchTests.swift */; };
+		6975B74B27734E7C00918A7A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975B74A27734E7B00918A7A /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6975B737277135C200918A7A /* Local_NotificationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Local_NotificationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6975B73B277135C200918A7A /* Local_NotificationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local_NotificationsUITests.swift; sourceTree = "<group>"; };
 		6975B73D277135C200918A7A /* Local_NotificationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local_NotificationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6975B74A27734E7B00918A7A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				6975B71A277135BE00918A7A /* AppDelegate.swift */,
 				6975B71C277135BE00918A7A /* SceneDelegate.swift */,
 				6975B71E277135BE00918A7A /* LocalNotificationsController.swift */,
+				6975B74A27734E7B00918A7A /* TableViewController.swift */,
 				6975B720277135BE00918A7A /* Main.storyboard */,
 				6975B723277135C100918A7A /* Assets.xcassets */,
 				6975B725277135C100918A7A /* LaunchScreen.storyboard */,
@@ -190,6 +193,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					TableViewController,
+				);
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
@@ -258,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6975B74B27734E7C00918A7A /* TableViewController.swift in Sources */,
 				6975B71F277135BE00918A7A /* LocalNotificationsController.swift in Sources */,
 				6975B71B277135BE00918A7A /* AppDelegate.swift in Sources */,
 				6975B71D277135BE00918A7A /* SceneDelegate.swift in Sources */,
